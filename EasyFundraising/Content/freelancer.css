@@ -14,6 +14,7 @@ p {
 
 p.small {
     font-size: 16px;
+    font-weight: 200;
 }
 
 a,
@@ -80,8 +81,8 @@ hr.star-primary:after {
 }
 
 header {
-    height: 797px;
-    text-align: center;
+    height: 820px;
+    text-align: left;
     color: #fff;
     background: #233140;
 }
@@ -103,7 +104,7 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
-@media(min-width:768px) {
+@media (min-width:768px) {
     header .container {
         padding-top: 100px;
     }
@@ -117,7 +118,7 @@ header .intro-text .skills {
     }
 }
 
-@media(min-width:768px) {
+@media (min-width:768px) {
     .navbar-fixed-top {
         padding: 25px 0;
         -webkit-transition: padding .3s;
@@ -175,7 +176,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #099ac7;
 }
 
 section.success a,
@@ -201,7 +202,7 @@ section.section_grey a.active {
     color: rgba(24,188,156,.9);
 }
 
-@media(max-width:767px) {
+@media (max-width:767px) {
     section {
         padding: 75px 0;
     }
@@ -220,7 +221,7 @@ section.section_grey a.active {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 420px;
 }
 
 #design .portfolio-item .portfolio-link .caption {
@@ -262,7 +263,7 @@ section.section_grey a.active {
     z-index: 2;
 }
 
-@media(min-width:767px) {
+@media (min-width:767px) {
     #design .portfolio-item {
         margin: 0 0 30px;
     }
@@ -324,7 +325,7 @@ section.section_grey a.active {
     transition: top .3s ease,opacity .3s ease;
 }
 
-.floating-label-form-group::not(:first-child) {
+.floating-label-form-group:not(:first-child) {
     padding-left: 14px;
     border-left: 1px solid #eee;
 }
@@ -473,7 +474,7 @@ footer .footer-below {
     margin-bottom: 3em;
     background: #fff;
     padding: 2em;
-    border-right: 30px solid #18bc9c;
+    border: 30px solid #099ac7;
     min-height: 169px;
 }
 
@@ -519,22 +520,24 @@ footer .footer-below {
   left: 0;
   width: 100%;
   position: relative;
-  padding-top: 215px;
-  padding-bottom:0px;
+  padding-top: 230px;
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 @media (max-width: 991px) {
-  header .header-2-sub {
+    header .header-2-sub {
     padding-top: 165px;
-  }
-  header img.image{
-  	display: none;
-  }
+    }
+    .screenshot_home {
+    display: none;
+    }
+    .col-centered {
+        text-align: center;
+    }
 }
 
-.hero-shn-bg{
+.hero-shn-bg {
 	background: url(http://shn.paradigm-healthcare.com/static/images/header-bg.jpg) top center;
 }
 
@@ -542,10 +545,19 @@ section.header-2-sub.hero-shn-bg {
 	height: 782px;
 }
 
-
 .hero-shn-bg img.image {
-	display: inline-block;
-	position: absolute;
-	left: 50%;
-	margin-left: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: 50px;
+    bottom: 0;
+}
+
+.col-centered {
+    margin-top: 30px;
+    text-align: left;
+    display: block;
+}
+
+.icons {
+    padding-bottom: 20px;
 }
