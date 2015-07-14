@@ -179,6 +179,10 @@ section.success {
     background: #099ac7;
 }
 
+section .how-works {
+    padding: 50px;
+}
+
 section.success a,
 section.success a:hover,
 section.success a:focus,
@@ -270,7 +274,6 @@ section.section_grey a.active {
 }
 
 .btn-outline {
-    margin-top: 15px;
     border: solid 2px #18bc9c;
     font-size: 15px;
     color: #18bc9c;
@@ -554,10 +557,40 @@ section.header-2-sub.hero-shn-bg {
 
 .col-centered {
     margin-top: 30px;
-    text-align: left;
+    text-align: center;
     display: block;
 }
 
 .icons {
-    padding-bottom: 20px;
+    padding-bottom: 8px;
+}
+
+.circle-text {
+    width:95%;
+}
+.circle-text:after {
+    content: "";
+    display:block;
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    background-color: #fff; 
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+}
+.circle-text div {
+    padding:30px;
+    float:left;
+    width:100%;
+    padding-top: 14%;
+    line-height:1em;
+    margin-top:-0.5em;
+    text-align:center;
+    color:#233140;
+}
+
+.circles {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
