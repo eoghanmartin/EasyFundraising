@@ -221,6 +221,10 @@ section.section_grey a.active {
     margin: 0 0 15px;
 }
 
+#design .screenshot {
+    -webkit-filter: blur(2px);
+}
+
 #design .portfolio-item .portfolio-link {
     display: block;
     position: relative;
@@ -528,7 +532,7 @@ footer .footer-below {
   text-align: left;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1100px) {
     header .header-2-sub {
     padding-top: 165px;
     }
@@ -537,6 +541,14 @@ footer .footer-below {
     }
     .col-centered {
         text-align: center;
+    }
+    .contact-button {
+        width:auto;
+        height:50px;
+        padding-left: 0px;
+        padding-top: 0px;
+        left:0;
+        margin-left:  -35px;
     }
 }
 
@@ -553,6 +565,7 @@ section.header-2-sub.hero-shn-bg {
     left: 50%;
     margin-left: 50px;
     bottom: 0;
+    -webkit-filter: blur(2px);
 }
 
 .col-centered {
@@ -593,4 +606,54 @@ section.header-2-sub.hero-shn-bg {
 .circles {
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.contact-button {
+    width:200px;
+    height:50px;
+    align-content: center;
+    padding-left: 50px;
+    padding-top: 8px;
+}
+
+.circle-tile {
+    margin-bottom: 15px;
+    text-align: center;
+    color:#233140;
+}
+.circle-tile-heading {
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+    color: #FFFFFF;
+    height: 80px;
+    margin: 0 auto -40px;
+    position: relative;
+    transition: all 0.3s ease-in-out 0s;
+    width: 80px;
+}
+.circle-tile-heading .fa {
+    line-height: 80px;
+}
+.circle-tile-content {
+    padding-top: 50px;
+    height: 175px;
+    color:#fff;
+}
+.circle-tile-number {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 5px 0 15px;
+}
+.circle-tile-description {
+    text-transform: uppercase;
+}
+.white {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.blue {
+    background-color: #099ac7;
+}
+.info-para {
+    padding-top: 50px;
 }
