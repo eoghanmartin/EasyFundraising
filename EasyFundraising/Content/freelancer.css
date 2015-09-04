@@ -221,10 +221,6 @@ section.section_grey a.active {
     margin: 0 0 15px;
 }
 
-#design .screenshot {
-    -webkit-filter: blur(2px);
-}
-
 #design .portfolio-item .portfolio-link {
     display: block;
     position: relative;
@@ -565,7 +561,6 @@ section.header-2-sub.hero-shn-bg {
     left: 50%;
     margin-left: 50px;
     bottom: 0;
-    -webkit-filter: blur(2px);
 }
 
 .col-centered {
